@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -pedantic
 # Simulate an outdated library version
 # In a real scenario, this would be a dependency like 'libssl-1.0.0'
 # that Dependabot would flag as vulnerable or outdated.
-OUTDATED_LIB_VERSION = 1.0.0
+OUTDATED_LIB_VERSION = 2.0.0
 
 all: main
 
